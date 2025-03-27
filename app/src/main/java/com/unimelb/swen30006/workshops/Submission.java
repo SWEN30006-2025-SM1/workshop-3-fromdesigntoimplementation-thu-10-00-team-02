@@ -1,5 +1,7 @@
 package com.unimelb.swen30006.workshops;
 
+import java.util.Date;
+
 // Sample private submission class to be replaced by your implementation
 class Submission {
     // Return two fake files
@@ -9,4 +11,9 @@ class Submission {
         files[1] = new File();
         return files;
     }
+
+    private int attemptNum;
+    private File[] files;
+    private int numFiles;
+
 }
